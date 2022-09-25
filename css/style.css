@@ -1,0 +1,558 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+/* Navbar */
+.logo{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+/* Header */
+header{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+  
+}
+.header-layer{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+.header-content h5 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.header h2{
+    font-size: 4.4rem;
+}
+header h2::after{
+    content: '|';
+    animation-name: typing;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+    @keyframes typing{
+        0%{
+            content: '|';
+        }
+        2%{
+            content: ' L|';
+        }
+        4%{
+            content: ' La|';
+        }
+        6%{
+            content: ' Lar|';
+        }
+        8%{
+            content: ' Larr|';
+        }
+        10%{
+            content: ' Larry|';
+        }
+        12%{
+            content: ' Larry |';
+        }
+        14%{
+            content: ' Larry D|';
+        }
+        16%{
+            content: ' Larry Da|';
+        }
+        18%{
+            content: ' Larry Dan|';
+        }
+        20%{
+            content: ' Larry Dani|';
+        }
+        22%{
+            content: ' Larry Danie|';
+        }
+        24%{
+            content: ' Larry Daniel|';
+        }
+        26%{
+            content: ' Larry Daniels|';
+        }
+        28%{
+            content: ' Larry Daniel|';
+        }
+        30%{
+            content: ' Larry Danie|';
+        }
+        32%{
+            content: ' Larry Dani|';
+        }
+        34%{
+            content: ' Larry Dan|';
+        }
+        36%{
+            content: ' Larry Da|';
+        }
+        38%{
+            content: ' Larry D|';
+        }
+        40%{
+            content: 'Larry |';
+        }
+        42%{
+            content: 'Larr|';
+        }
+        44%{
+            content: ' Lar|';
+        }
+        48%{
+            content: ' La|';
+        }
+        50%{
+            content: ' L|';
+        }
+        52%{
+            content: '|';
+        }
+        54%{
+            content: ' Devel|';
+        }
+        58%{
+            content: ' Develo|';
+        }
+        60%{
+            content: ' Develop|';
+        }
+        62%{
+            content: ' Develope|';
+        }
+        64%{
+            content: ' Developer|';
+        }
+        66%{
+            content: ' Develope|';
+        }
+        68%{
+            content: ' Develop|';
+        }
+        70%{
+            content: ' Develo|';
+        }
+        72%{
+            content: ' Devel|';
+        }
+        74%{
+            content: ' Deve|';
+        } 
+        76%{
+            content: ' Dev|';
+        }
+        78%{
+            content: ' De|';
+        }
+        80%{
+            content: 'D|';
+        }
+        82%{
+            content: '|';
+        }
+        83%{
+            content: ' D|';
+        }
+        84%{
+            content: ' De|';
+        }
+        85%{
+            content: ' Des|';
+        }
+        86%{
+            content: ' Desi|';
+        }
+        87%{
+            content: ' Desig|';
+        }
+        88%{
+            content: ' Design|';
+        }
+        89%{
+            content: ' Designe|';
+        }
+        90%{
+            content: ' Designer|';
+        }
+        91%{
+            content: ' Designe|';
+        }
+        92%{
+            content: ' Design|';
+        }
+        93%{
+            content: ' Desig|';
+        }
+        94%{
+            content: ' Desi|';
+        }
+        95%{
+            content: ' Des|';
+        }
+        96%{
+            content: ' De|';
+        }
+        97%{
+            content: ' D|';
+        }
+        100%{
+            content: '|';
+        }
+       
+        
+    
+    }
+
+    .icon-circle-media{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.6);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* margin: 10px auto; */
+      transition: all 0.5s ; 
+    }
+ 
+
+
+    /* About */
+.img-about{
+    background-image:url(../img/dots.png);
+    padding-top: 20px;
+    
+}
+.img-about img{
+    position: relative;
+    left: 30px;
+    bottom: 35px;
+}
+.content-about h3 {
+    font-weight: 800;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.content-about h6{
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+ .content-about span{
+ color:#556061;
+ font-weight: 700;
+
+} 
+.rate{
+   height: 30px;
+    background-color: #f7f7f7;
+    width: 100%;
+    box-shadow:  2px 2px 7px rgb(0 0 0 / 15%) inset;
+
+}
+.correct-rate{
+    width: 95%;
+    height: 100%;
+    background-color: black;
+    border-radius: 5px;
+
+}
+.correct-rate2{
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    border-radius: 5px;
+}
+.correct-rate3{
+    width: 90%;
+    height: 100%;
+    background-color: black;
+    border-radius: 5px;
+}
+.btn1{
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: #000;
+    color: #fff; 
+    transition: all 1s;
+}
+.btn1:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.btn2{
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+    transition: all 1s;
+}
+.btn2:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  
+}
+.btn2 a{
+    color: #000;
+    transition: all 1s;
+} 
+.btn2:hover a{
+    color: rgb(255, 255, 255);
+    
+} 
+
+/* Services */
+
+.services{
+    background-color: #f1f1f1;
+}
+.title-serv h1{
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.services h2{
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.title-serv h1 {
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+}
+.title-serv h1::after{
+    content: '';
+    width: 100%;
+    height: 30px;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+.icon-circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 10px auto;
+  transition: all 0.5s ; 
+}
+.serv:hover .icon-circle{
+    background-color: #000;
+    color: #fff;
+}
+
+/* Portfolio */
+.item{
+    position: relative;
+    overflow: hidden;
+}
+.work-layer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: #999 solid 5px;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    transition: all 1s;
+}
+.work-layer h6{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.item:hover .work-layer{
+opacity: 1;
+}
+.layer-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000000;
+    color: #fff;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 10px auto;
+  transition: all 0.5s ; 
+}
+.layer-icon:hover{
+    background-color: white;
+    color: #000;
+}
+
+/* testimonials */
+
+.testimonials{
+    background-color: #f1f1f1;
+}
+.customer span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+    margin-bottom: 30px;
+}
+.customer h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 0 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.carousel-indicators [data-bs-target]{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: cadetblue;
+   
+}
+
+/* counter */
+
+
+.count span{
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+/* blog */
+.blog{
+    background-color: #f1f1f1;
+}
+.card-text{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.6;
+}
+.btn{
+border: none;
+}
+.card img{
+    transition: all 1s;
+}
+.card:hover img{
+    transform: scale(1.2,1.2);
+}
+.icon-circle2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 10px auto;
+  transition: all 0.5s ; 
+}
+.icon-circle2:hover{
+    background-color: #000;
+    color: #fff;
+}
+.adress h6{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.adress p{
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+.name{
+    width: 45%;
+    background-color: #f1f1f1;
+    border: 0;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.area-text{
+    width: 92%;
+    background-color: #f1f1f1;
+    border: 0;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.btn3{
+    padding: 10px 40px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: #000;
+    color: #fff; 
+    transition: all 1s;
+}
+.btn3:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.card-body a{
+    position: relative;
+}
+.card-body a::after{
+    content: '';
+    width: 90px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+  top: 30px;
+    left: 10px;
+}
+ @media screen and (max-width:600px) {
+    .header-layer{
+        height: 100%;
+        position: static;
+    }
+    .img-about img {
+        position: relative;
+        left: 10px;
+        bottom: 35px;
+    }
+    .protofile{
+        width: 100%;
+        
+    }
+    .col-lg-4{
+        padding-bottom: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+} 
